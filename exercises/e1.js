@@ -13,6 +13,7 @@
 
 // Your code goes here
 
+const logMessage = () => console.log(`Hello, World!`);
 
 
 
@@ -28,7 +29,7 @@
 
 // Your code goes here...
 
-
+const logMyMessage = (arg) => console.log(arg);
 
 /**
  * ===============================================================
@@ -40,7 +41,7 @@
 */
 
 // Your code goes here...
-
+const logMessageWithMyName = (name) => console.log(`My name is ${name}!`);
 
 
 /**
@@ -54,7 +55,9 @@
 */
 
 // Your code goes here...
-
+const logMyInfo = (s, n) => {
+  console.log(`My name is ${s}. I am ${n} years old!`);
+} 
 
 
 // === TEST YOURSELF ===
